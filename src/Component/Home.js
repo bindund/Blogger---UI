@@ -10,7 +10,7 @@ const Home = (props) => {
     return(
                     <div>  
                         <p class="subtitle">Welcome to my website!</p>
-                        <h1> Welcome  to  BLOOGER UI Project</h1>
+                        <h2> Welcome  to  BLOOGER UI Project</h2>
                         <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active" data-bs-interval="1000">

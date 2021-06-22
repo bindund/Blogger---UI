@@ -50,7 +50,7 @@ const UserShowPost = (props) => {
         <div>
             <ol>
                      <div class="card bg-dark text-white">
-                    <img src="/splash.jpg" class="img-fluid" max-width="auto" height="auto"  alt="Responsive image"/>
+                    <img src="/splash.jpg" class="img-fluid"  height= "100vh"  alt="Responsive image"/>
                     <div class="card-img-overlay">
                         <h5 class="card-title"><strong>UserName : </strong>  {userName.name}</h5><br/>
                         <h6 class="card-text"><strong>Title : </strong>{userPost.title}</h6>

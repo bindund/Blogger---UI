@@ -13,16 +13,16 @@
   
   }
   
-  h1 {
-    font-size: clamp(1rem, 3vw + 1rem, 4rem);
+  h2 {
+    font-size: 2rem;
     position: relative;
     font-family:sans-serif;
     position: relative;
     width: max-content;
   }
   
-  h1::before,
-  h1::after {
+  h2::before,
+  h2::after {
     content: "";
     position: absolute;
     top: 0;
@@ -31,13 +31,13 @@
     left: 0;
   }
   
-  h1::before {
+  h2::before {
     background: var(--bg-color);
     animation: typewriter var(--typewriterSpeed)
       steps(var(--typewriterCharacters)) 1s forwards;
   }
   
-  h1::after {
+  h2::after {
     width: 0.125em;
     background: black;
     animation: typewriter var(--typewriterSpeed)
